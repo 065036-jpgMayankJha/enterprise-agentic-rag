@@ -64,7 +64,8 @@ def convert_document(
         result = converter.convert(input_file)
 
         markdown = result.document.export_to_markdown()
-
+        if not markdown or not markdown.strip():
+            raise ValueError("Document conversion produced empty Markdown")
         # Save Markdown
         output_file.parent.mkdir(parents=True, exist_ok=True)
 
