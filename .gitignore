@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Enterprise RAG project
+.venv/
+data/processed/*
+logs/
+*.log
+qdrant_storage/
+chroma_db/
+.env
+.env.*
