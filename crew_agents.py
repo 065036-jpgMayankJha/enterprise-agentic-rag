@@ -2,6 +2,8 @@ import os
 from crewai import Agent, Task, Crew, Process, LLM
 from crewai.tools import tool
 from retrieval_engine import query_documents
+from query_logger import log_query
+import time
 
 llm = LLM(
     model="ollama_chat/gpt-oss:20b",
@@ -67,17 +69,17 @@ def run_query(question: str):
     )
 
     verify_task = Task(
-        description="Verify the retrieved answer is supported by its cited sources. If the answer states information was not found, confirm whether the source excerpts genuinely lack that information.",
-        expected_output="A verified answer with a confidence note.",
+        description="You have been given the Retrieval Specialist's answer and source excerpts in your context. Read that context carefully before responding. Verify the retrieved answer is supported by its cited sources. If the answer states information was not found, confirm whether the source excerpts genuinely lack that information. If for any reason no prior answer appears in your context, treat this as a system error and respond with exactly: SYSTEM_ERROR_NO_CONTEXT -- do not claim the source lacks information in this case.",
+        expected_output="A verified answer with a confidence note, or the literal string SYSTEM_ERROR_NO_CONTEXT if no context was received.",
         agent=verification_agent,
         context=[retrieve_task],
     )
 
     respond_task = Task(
-        description=f"Write the final, user-facing answer to the original question: '{question}'. Include source citations where the answer was found in the documents. This is the final answer shown to the user — do not ask for more information, do not critique prior steps, just answer.",
+        description=f"Write the final, user-facing answer to the original question: '{question}'. Include source citations where the answer was found in the documents. This is the final answer shown to the user — do not ask for more information, do not critique prior steps, just answer. If your context contains the literal string SYSTEM_ERROR_NO_CONTEXT, ignore it and instead base your answer directly on the Retrieval Specialist's original answer, which is also available to you in the full task history.",
         expected_output="A complete, final, direct answer to the user's question, ready to be shown as-is.",
         agent=response_agent,
-        context=[verify_task],
+        context=[retrieve_task, verify_task],
     )
 
     crew = Crew(
@@ -87,10 +89,26 @@ def run_query(question: str):
         verbose=True,
     )
 
-    return crew.kickoff()
+    result = crew.kickoff()
+    department = route_task.output.raw.strip() if route_task.output else "unknown"
+    return result, department
+
+
+def run_query_logged(question: str):
+    """Wraps run_query with timing and logging to query_logs."""
+    start = time.time()
+    result, department = run_query(question)
+    duration = time.time() - start
+    log_query(
+        question=question,
+        department=department,
+        answer=str(result),
+        duration_s=duration,
+    )
+    return result
 
 
 if __name__ == "__main__":
-    result = run_query("What is the leave policy?")
+    result = run_query_logged("What is the leave policy?")
     print("\n\n=== FINAL RESULT ===")
     print(result)
