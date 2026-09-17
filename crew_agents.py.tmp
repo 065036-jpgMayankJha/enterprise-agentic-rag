@@ -1,0 +1,2 @@
+import os
+os.environ["OLLAMA_API_KEY"] = os.environ.get("OLLAMA_API_KEY", "")

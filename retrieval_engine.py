@@ -22,7 +22,7 @@ def query_documents(question: str, department: str = None) -> dict:
         department: one of HR, Finance, Legal, Customer, or None for all
 
     Returns:
-        dict with 'answer', 'sources' (list of filenames), 'department'
+        dict with 'answer', 'sources' (filenames), 'raw_chunks' (actual retrieved text), 'department'
     """
     if department:
         filters = MetadataFilters(
@@ -39,13 +39,24 @@ def query_documents(question: str, department: str = None) -> dict:
         for node in response.source_nodes
     })
 
+    raw_chunks = [
+        {
+            "file_name": node.metadata.get("file_name", "unknown"),
+            "text": node.get_text(),
+            "score": round(node.score, 3) if node.score else None,
+        }
+        for node in response.source_nodes
+    ]
+
     return {
         "answer": str(response),
         "sources": sources,
+        "raw_chunks": raw_chunks,
         "department": department or "all",
     }
 
 
 if __name__ == "__main__":
+    import json
     result = query_documents("What is the leave policy?", department="HR")
-    print(result)
+    print(json.dumps(result, indent=2))
