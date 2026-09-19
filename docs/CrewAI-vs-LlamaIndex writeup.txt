@@ -1,0 +1,15 @@
+## Why CrewAI Orchestrates, LlamaIndex Stays the RAG Backbone
+
+**LlamaIndex — the retrieval engine**
+Handles document ingestion, chunking, embeddings, and vector search against Qdrant. It answers one question: *given a query, what are the most relevant chunks?* It has no concept of departments, agents, or multi-step reasoning — it's a retrieval primitive.
+
+**CrewAI — the orchestration layer**
+Wraps LlamaIndex with agentic structure: a Query Router agent decides intent/department, a Retrieval agent calls LlamaIndex, a Verification agent checks the retrieved chunks actually support an answer, a Response agent formats the final output with citations. CrewAI doesn't do retrieval itself — it delegates that to LlamaIndex and adds decision-making, sequencing, and quality control around it.
+
+**Why not merge them / why not skip CrewAI**
+- LlamaIndex's own `RouterQueryEngine` could route between engines, but it can't do multi-step verification or structured agent handoffs
+- CrewAI alone has no retrieval capability — it needs a real RAG backend
+- Splitting concerns keeps each layer swappable: change the vector store without touching agent logic, change agent behavior without touching retrieval
+
+**One-line summary:** LlamaIndex answers "what's relevant," CrewAI answers "what should happen with it."
+

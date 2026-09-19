@@ -1,0 +1,18 @@
+TEST_QUESTIONS = [
+    "What is the leave policy?",
+    "How many days of annual leave do employees get?",
+    "What is the sick leave policy?",
+    "How far in advance should leave be requested?",
+    "What is the maternity leave policy?",
+    "What is the expense reimbursement process?",
+    "What is the budget approval process?",
+    "How are financial reports generated?",
+    "What are the compliance requirements?",
+    "What is the data privacy policy?",
+    "What are the contract terms?",
+    "What is the customer complaint process?",
+    "How are refunds handled?",
+    "What is the customer service escalation process?",
+    "What is the policy on remote work?",
+    "What is the dress code?",
+]

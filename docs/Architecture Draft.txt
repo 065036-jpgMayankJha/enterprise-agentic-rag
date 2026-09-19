@@ -1,0 +1,40 @@
+## Architecture Draft — Day 1
+
+**Flow:**
+```
+User Query
+    ↓
+CrewAI Agents
+    ↓
+  Query Router Agent  →  decides department/intent
+    ↓
+  Retrieval Agent  →  calls LlamaIndex query engine
+    ↓
+  LlamaIndex  →  embeds query, searches Qdrant
+    ↓
+  Qdrant  →  returns relevant chunks (filtered by department metadata)
+    ↓
+  Verification Agent  →  checks chunks actually support an answer, assigns confidence score
+    ↓
+  Response Agent  →  formats final answer + source citations
+    ↓
+  (parallel) query_logs write → Postgres  →  analytics dashboard
+    ↓
+Streamlit / FastAPI  →  shown to user
+```
+
+**Layer responsibilities:**
+- **CrewAI** — orchestration: routing, sequencing, verification, response formatting
+- **LlamaIndex** — retrieval: chunking, embeddings, query-to-chunk matching
+- **Qdrant** — storage: vector index with department metadata for filtering
+- **Ollama Cloud** — LLM: powers agent reasoning + final answer generation
+- **Postgres (query_logs)** — analytics: logged after Response agent finishes, no impact on response latency
+- **Streamlit/FastAPI** — presentation: chat UI + API layer
+
+**Data flow (documents, separate from query flow):**
+```
+Department folders → PDF/DOCX/XLSX → Docling → Markdown
+→ LlamaIndex ingestion → chunking/embeddings → Qdrant
+```
+
+Want this as a downloadable diagram (image/SVG) or is the text version enough for the doc?
