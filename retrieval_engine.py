@@ -1,11 +1,11 @@
 import os
 from llama_index.core import VectorStoreIndex, Settings
 from llama_index.vector_stores.qdrant import QdrantVectorStore
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.fastembed import FastEmbedEmbedding
 from llama_index.core.vector_stores import MetadataFilters, ExactMatchFilter
 import qdrant_client
 
-Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
+Settings.embed_model = FastEmbedEmbedding(model_name="BAAI/bge-small-en-v1.5")
 
 _client = qdrant_client.QdrantClient(
     url=os.getenv("QDRANT_URL", "http://localhost:6333"),
