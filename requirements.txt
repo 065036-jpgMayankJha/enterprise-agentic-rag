@@ -1,2 +1,2 @@
-# Document parsing
-docling
+streamlit
+requests
