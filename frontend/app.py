@@ -15,6 +15,10 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Circular 'R' and 'H' Badge Logos as SVG Data URLs (No external files needed)
+AVATAR_R = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%231E3A5F'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='sans-serif' font-size='52' font-weight='bold'>R</text></svg>"
+AVATAR_H = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23475569'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='sans-serif' font-size='52' font-weight='bold'>H</text></svg>"
+
 # -----------------------------------------------------------------------------
 # Custom CSS for Professional Slate-Blue Styling & Layout
 # -----------------------------------------------------------------------------
@@ -75,7 +79,7 @@ st.markdown(
         border: 1px solid #FDE68A;
     }
 
-    /* Chat message spacing */
+    /* Chat message container styling */
     .stChatMessage {
         background-color: #FFFFFF;
         border: 1px solid #E2E8F0;
@@ -90,7 +94,7 @@ st.markdown(
 )
 
 # -----------------------------------------------------------------------------
-# SIDEBAR (Exact match to your layout & options)
+# SIDEBAR
 # -----------------------------------------------------------------------------
 with st.sidebar:
     st.header("Search settings")
@@ -122,10 +126,10 @@ if "messages" not in st.session_state:
     ]
 
 # -----------------------------------------------------------------------------
-# RENDER CHAT HISTORY (Uses "R" and "H" Avatars)
+# RENDER CHAT HISTORY
 # -----------------------------------------------------------------------------
 for msg in st.session_state["messages"]:
-    avatar_logo = "H" if msg["role"] == "user" else "R"
+    avatar_logo = AVATAR_H if msg["role"] == "user" else AVATAR_R
     with st.chat_message(msg["role"], avatar=avatar_logo):
         # Render Routed Department badge if present
         if msg.get("department"):
@@ -173,13 +177,13 @@ if submit_search:
     if not question:
         st.warning("Please enter a question first.")
     else:
-        # 1. Add User Question to Chat History & Display Immediately
+        # 1. Add User Question to Chat History & Display
         st.session_state["messages"].append({"role": "user", "content": question})
-        with st.chat_message("user", avatar="H"):
+        with st.chat_message("user", avatar=AVATAR_H):
             st.markdown(question)
 
-        # 2. Call Backend RAG Service with Spinner
-        with st.chat_message("assistant", avatar="R"):
+        # 2. Call Backend RAG Service
+        with st.chat_message("assistant", avatar=AVATAR_R):
             with st.spinner(
                 "Searching documents and generating an answer… "
                 "This may take 15–60 seconds."
