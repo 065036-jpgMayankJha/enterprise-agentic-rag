@@ -1,3 +1,4 @@
+import os
 from llama_index.core import VectorStoreIndex, Settings
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
@@ -6,7 +7,10 @@ import qdrant_client
 
 Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
 
-_client = qdrant_client.QdrantClient(host="localhost", port=6333)
+_client = qdrant_client.QdrantClient(
+    url=os.getenv("QDRANT_URL", "http://localhost:6333"),
+    api_key=os.getenv("QDRANT_API_KEY") or None,
+)
 _vector_store = QdrantVectorStore(client=_client, collection_name="dept_docs")
 _index = VectorStoreIndex.from_vector_store(_vector_store)
 
