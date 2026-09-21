@@ -27,6 +27,10 @@ SUPPORTED_DEPARTMENTS = {
     "Finance",
     "Legal",
     "Customer",
+    "IT & Security",
+    "Operations",
+    "Business Development",
+    "Marketing",
 }
 
 
