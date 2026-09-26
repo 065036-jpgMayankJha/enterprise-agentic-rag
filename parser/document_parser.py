@@ -26,7 +26,15 @@ SUPPORTED_DEPARTMENTS = {
     "HR",
     "Finance",
     "Legal",
+    "Legal & Compliance",
     "Customer",
+    "IT & Security",
+    "Marketing",
+    "Operations",
+    "Business Development",
+    "Procurement",
+    "Supply Chain",
+    "Sales",
 }
 
 
