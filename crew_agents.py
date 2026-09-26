@@ -14,7 +14,7 @@ llm = LLM(
 
 @tool("RAG Retrieval Tool")
 def rag_tool(question: str, department: str = None) -> str:
-    """Retrieve raw source excerpts for a question, optionally scoped to a department (HR, Finance, Legal, Customer). Returns only retrieved text, no pre-synthesized answer."""
+    """Retrieve raw source excerpts for a question, optionally scoped to a department (HR, Finance, Legal, Customer, IT & Security, Operations, Business Development, Marketing). Returns only retrieved text, no pre-synthesized answer."""
     result = query_documents(question, department)
     chunks_text = chr(10).join([f"[Source: {c['file_name']}, relevance: {c['score']}] {c['text']}" for c in result['raw_chunks']])
     return f"Raw Source Excerpts:\n{chunks_text}\n\nDepartment: {result['department']}"
@@ -22,7 +22,7 @@ def rag_tool(question: str, department: str = None) -> str:
 
 router_agent = Agent(
     role="Query Router",
-    goal="Determine which department (HR, Finance, Legal, Customer) a user question relates to",
+    goal="Determine which department (HR, Finance, Legal, Customer, IT & Security, Operations, Business Development, Marketing) a user question relates to",
     backstory="Expert at classifying organizational questions into the correct department.",
     llm=llm,
     verbose=True,
@@ -56,7 +56,7 @@ response_agent = Agent(
 
 def run_query(question: str):
     route_task = Task(
-        description=f"Classify this question into one department (HR, Finance, Legal, Customer): '{question}'. Respond with only the department name.",
+        description=f"Classify this question into one department (HR, Finance, Legal, Customer, IT & Security, Operations, Business Development, Marketing): '{question}'. Respond with only the department name.",
         expected_output="A single department name.",
         agent=router_agent,
     )
