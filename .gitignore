@@ -226,3 +226,11 @@ qdrant_storage/
 chroma_db/
 .env
 .env.*
+
+# Local large/private files
+\data/input/Finance/Tata Consumer Products Ltd IAR 2025-2026.pdf
+frontend/app_backup.py
+
+# Local large/private files
+data/input/Finance/Tata Consumer Products Ltd IAR 2025-2026.pdf
+frontend/app_backup.py
