@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise RAG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">ER</div>
+        <div>
+          <div class="brand-name">Enterprise RAG</div>
+          <div class="brand-subtitle">Agentic Knowledge Assistant</div>
+        </div>
+      </div>
+
+      <button class="new-chat" id="newChatBtn">
+        <span>＋</span> New conversation
+      </button>
+
+      <div class="sidebar-section">
+        <div class="section-label">Departments</div>
+        <div class="department-list" id="departmentList">
+          <button class="department active" data-dept="All">All departments</button>
+          <button class="department" data-dept="HR">HR</button>
+          <button class="department" data-dept="Finance">Finance</button>
+          <button class="department" data-dept="Legal & Compliance">Legal & Compliance</button>
+          <button class="department" data-dept="Procurement">Procurement</button>
+          <button class="department" data-dept="Supply Chain">Supply Chain</button>
+          <button class="department" data-dept="Sales">Sales</button>
+          <button class="department" data-dept="Marketing">Marketing</button>
+          <button class="department" data-dept="Operations">Operations</button>
+          <button class="department" data-dept="IT & Security">IT & Security</button>
+          <button class="department" data-dept="Business Development">Business Development</button>
+          <button class="department" data-dept="Customer">Customer</button>
+          <button class="department" data-dept="Legal">Legal</button>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="status-dot"></div>
+        <span>RAG system online</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">ENTERPRISE KNOWLEDGE</div>
+          <h1>Ask your organization</h1>
+        </div>
+        <div class="topbar-status">
+          <span class="pulse"></span>
+          <span id="apiStatus">Connected</span>
+        </div>
+      </header>
+
+      <section class="chat-container" id="chatContainer">
+        <div class="welcome" id="welcome">
+          <div class="welcome-icon">✦</div>
+          <h2>How can I help?</h2>
+          <p>Ask questions across your enterprise knowledge base and get grounded answers with document sources.</p>
+
+          <div class="suggestions">
+            <button class="suggestion" data-question="What is the leave entitlement policy?">Leave & attendance policy</button>
+            <button class="suggestion" data-question="Summarize the latest finance information.">Finance summary</button>
+            <button class="suggestion" data-question="What are the procurement procedures?">Procurement procedure</button>
+            <button class="suggestion" data-question="What are the supply chain performance metrics?">Supply chain metrics</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="composer-wrap">
+        <div class="composer">
+          <textarea id="questionInput" rows="1" placeholder="Ask a question about your organization..."></textarea>
+          <button id="sendBtn" class="send-btn" aria-label="Send">
+            <span>➤</span>
+          </button>
+        </div>
+        <div class="composer-hint">Press Enter to send · Shift + Enter for a new line</div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
