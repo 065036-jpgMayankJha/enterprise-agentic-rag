@@ -54,9 +54,19 @@ response_agent = Agent(
 )
 
 
-def run_query(question: str):
+def run_query(question: str, department: str = None):
+    route_description = (
+        f"Use the user-selected department exactly as provided: {department}. "
+        f"Do not reroute the question. Respond with only the department name."
+        if department
+        else
+        f"Classify this question into one department (HR, Finance, Legal, Customer, "
+        f"IT & Security, Operations, Business Development, Marketing): "
+        f"'{question}'. Respond with only the department name."
+    )
+
     route_task = Task(
-        description=f"Classify this question into one department (HR, Finance, Legal, Customer, IT & Security, Operations, Business Development, Marketing): '{question}'. Respond with only the department name.",
+        description=route_description,
         expected_output="A single department name.",
         agent=router_agent,
     )

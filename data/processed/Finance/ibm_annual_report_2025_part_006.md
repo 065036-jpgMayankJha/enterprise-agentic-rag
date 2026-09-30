@@ -1,0 +1,296 @@
+## Notes to the Consolidated Financial Statements
+
+International Business Machines Corporation and Subsidiary Companies
+
+future  and  on  various  other  assumptions  that  are  believed  to  be  reasonable  under  the  circumstances.  Actual  results  may  be different from these estimates.
+
+## Revenue
+
+The company accounts for a contract with a client when it has written approval, the contract is committed, the rights of the parties, including payment terms, are identified, the contract has commercial substance and consideration is probable of collection.
+
+Revenue is recognized when, or as, control of a promised product or service transfers to a client, in an amount that reflects the consideration  to  which  the  company  expects  to  be  entitled  in  exchange  for  transferring  those  products  or  services.  If  the consideration  promised  in  a  contract  includes  a  variable  amount,  the  company  estimates  the  amount  to  which  it  expects  to  be entitled  using  either  the  expected  value  or  most  likely  amount  method.  The  company's  contracts  may  include  terms  that  could cause  variability  in  the  transaction  price,  including,  for  example,  rebates,  volume  discounts,  service-level  penalties,  and performance bonuses or other forms of contingent revenue.
+
+The company only includes estimated amounts in the transaction price to the extent it is probable that a significant reversal of cumulative  revenue  recognized  will  not  occur  when  the  uncertainty  associated  with  the  variable  consideration  is  resolved.  The company may not be able to reliably estimate contingent revenue in certain long-term arrangements due to uncertainties that are not expected to be resolved for a long period of time or when the company's experience with similar types of contracts is limited. The company's arrangements infrequently include contingent revenue. Changes in estimates of variable consideration are included in note C, 'Revenue Recognition.'
+
+The  company's  standard  billing  terms  are  that  payment  is  due  upon  receipt  of  invoice,  payable  within  30  days.  Invoices  are generally  issued  as  control  transfers  and/or  as  services  are  rendered.  Additionally,  in  determining  the  transaction  price,  the company  adjusts  the  promised  amount  of  consideration  for  the  effects  of  the  time  value  of  money  if  the  billing  terms  are  not standard and the timing of payments agreed to by the parties to the contract provide the client or the company with a significant benefit of financing, in which case the contract contains a significant financing component. As a practical expedient, the company does not account for significant financing components if the period between when the company transfers the promised product or service to the client and when the client pays for that product or service will be one year or less. Most arrangements that contain a financing component are financed through the company's Financing business and include explicit financing terms.
+
+The company may include subcontractor services or third-party vendor equipment or software in certain arrangements. In these types of arrangements, revenue from sales of third-party vendor products or services is recorded net of costs when the company is acting as an agent between the client and the vendor, and gross when the company is the principal for the transaction. To determine whether the company is an agent or principal, the company considers whether it obtains control of the products or services before they are transferred to the customer. In making this evaluation, several factors are considered, most notably whether the company has primary responsibility for fulfillment to the client, as well as inventory risk and pricing discretion.
+
+The company recognizes revenue on sales to solution providers, resellers and distributors (herein referred to as resellers) when the reseller has economic substance apart from the company and the reseller is considered the principal for the transaction with the end-user client.
+
+The  company  reports  revenue  net  of  any  revenue-based  taxes  assessed  by  governmental  authorities  that  are  imposed  on  and concurrent with specific revenue-producing transactions.
+
+In addition to the aforementioned general policies, the following are the specific revenue recognition policies for arrangements with multiple performance obligations and for each major category of revenue.
+
+## Arrangements with Multiple Performance Obligations
+
+The company's global capabilities as a hybrid cloud platform and AI company include services, software, hardware and related financing.  The  company  enters  into  revenue  arrangements  that  may  consist  of  any  combination  of  these  products  and  services based on the needs of its clients.
+
+The company continues to develop new products and offerings and their associated consumption and delivery methods, including the use of cloud and as-a-Service models. These are not separate businesses; they are offerings across the segments that address market  opportunities  in  areas  such  as  hybrid  cloud,  AI,  data,  analytics  and  security.  Revenue  from  these  offerings  follows  the specific  revenue  recognition  policies  for  arrangements  with  multiple  performance  obligations  and  for  each  major  category  of revenue, depending on the type of offering, which are comprised of services, software and/or hardware.
+
+To  the  extent  that  a  product  or  service  in  multiple  performance  obligation  arrangements  is  subject  to  other  specific  accounting guidance, such as leasing guidance, that product or service is accounted for in accordance with such specific guidance. For all other
+
+## 50 Notes to the Consolidated Financial Statements
+
+International Business Machines Corporation and Subsidiary Companies
+
+products  or  services  in  these  arrangements,  the  company  determines  if  the  products  or  services  are  distinct  and  allocates  the consideration to each distinct performance obligation on a relative standalone selling price basis.
+
+When products and services are not distinct, the company determines an appropriate measure of progress based on the nature of its overall promise for the single performance obligation.
+
+The  revenue  policies  in  the  Services,  Hardware  and/or  Software  sections  below  are  applied  to  each  performance  obligation,  as applicable.
+
+## Services
+
+The  company's  services  offerings  include  Strategy  and  Technology  and  Intelligent  Operations  reported  within  the  Consulting segment, and Infrastructure Support reported within the Infrastructure segment. Many of these services can be delivered entirely or partially through cloud or as-a-Service delivery models. The company's services are provided on a time-and-material basis, as a fixed-price contract or as a fixed-price per measure of output contract and the contract terms generally range from less than one year to five years.
+
+In services arrangements, the company typically satisfies the performance obligation and recognizes revenue over time. In design and build arrangements, the performance obligation is satisfied over time either because the client controls the asset as it is created (e.g.,  when  the  asset  is  built  at  the  customer  site)  or  because  the  company's  performance  does  not  create  an  asset  with  an alternative use and the company has an enforceable right to payment plus a reasonable profit for performance completed to date. In most other services arrangements, the performance obligation is satisfied over time because the client simultaneously receives and consumes the benefits provided as the company performs the services.
+
+Revenue from time-and-material contracts is recognized on an output basis as labor hours are delivered and/or direct expenses are incurred.  Revenue  from  as-a-Service  type  contracts,  such  as  Infrastructure-as-a-Service,  is  recognized  either  on  a  straight-line basis or on a usage basis, depending on the terms of the arrangement (such as whether the company is standing ready to perform or whether  the  contract  has  usage-based  metrics).  If  an  as-a-Service  contract  includes  setup  activities,  those  promises  in  the arrangement are evaluated to determine if they are distinct.
+
+In  areas  such  as  application  management,  business  operations  and  other  cloud-based  services  arrangements,  the  company determines whether the services performed during the initial phases of the arrangement, such as setup activities, are distinct. In most cases, the arrangement is a single performance obligation comprised of a series of distinct services that are substantially the same and that have the same pattern of transfer (i.e., distinct days of service). The company applies a measure of progress (typically time-based) to any fixed consideration and allocates variable consideration to the distinct periods of service based on usage. As a result,  revenue  is  generally  recognized  over  the  period  the  services  are  provided  on  a  usage  basis.  This  results  in  revenue recognition  that  corresponds  with  the  value  to  the  client  of  the  services  transferred  to  date  relative  to  the  remaining  services promised.
+
+Revenue related to maintenance and infrastructure support is recognized on a straight-line basis over the period of performance because the company is standing ready to provide services.
+
+In design and build contracts, revenue is recognized based on progress toward completion of the performance obligation using a cost-to-cost measure of progress. Revenue is recognized based on the labor costs incurred to date as a percentage of the total estimated labor costs to fulfill the contract. Due to the nature of the work performed in these arrangements, the estimation of cost at  completion is complex, subject to many variables and requires significant judgment. Key factors reviewed by the company to estimate costs to complete each contract are future labor and product costs and expected productivity efficiencies. Changes in original estimates are reflected in revenue on a cumulative catch-up basis in the period in which the circumstances that gave rise to the revision become known by the company. Refer to note C, 'Revenue Recognition,' for the amount of revenue recognized in the reporting  period  on  a  cumulative  catch-up  basis  (i.e.,  from  performance  obligations  satisfied,  or  partially  satisfied,  in  previous periods).
+
+The company performs ongoing profitability analyses of its design and build services contracts accounted for using a cost-to-cost measure of progress in order to determine whether the latest estimates of revenues, costs and profits require updating. If at any time these estimates indicate that the contract will be unprofitable, the entire estimated loss for the remainder of the contract is recorded immediately. For other types of services contracts, any losses are recorded as incurred.
+
+In  some  services  contracts,  the  company  bills  the  client  prior  to  recognizing  revenue  from  performing  the  services  and  records deferred income in the Consolidated Balance Sheet. In other services contracts, the company performs the services prior to billing the client. When the company performs services prior to billing the client in design and build contracts, the right to consideration is typically subject to milestone completion or client acceptance and the unbilled accounts receivable is classified as a contract asset
+
+## Notes to the Consolidated Financial Statements
+
+International Business Machines Corporation and Subsidiary Companies
+
+included  in  prepaid  expenses  and  other  current  assets  in  the  Consolidated  Balance  Sheet.  The  remaining  amount  of  unbilled accounts receivable for services contracts is included in notes and accounts receivable-trade in the Consolidated Balance Sheet.
+
+Billings usually occur in the month after the company performs the services or in accordance with specific contractual provisions.
+
+## Hardware
+
+The company's hardware offerings include the sale or lease of solutions such as IBM Z, Power and Storage in Hybrid Infrastructure reported within the Infrastructure segment. The capabilities of these solutions can also be delivered through as-a-Service or cloud delivery models, such as Infrastructure-as-a-Service and Storage-as-a-Service. The company also offers installation services for its more complex hardware products. Hardware solutions are often sold with distinct maintenance services, included in Infrastructure Support in the Infrastructure segment and described in the Services section above.
+
+Revenue from hardware sales is recognized when control has transferred to the customer which typically occurs when the hardware has been shipped to the client, risk of loss has transferred to the client and the company has a present right to payment for the hardware. In limited circumstances when a hardware sale includes client acceptance provisions, revenue is recognized either when client  acceptance has been obtained, client acceptance provisions have lapsed, or the company has objective evidence that the criteria specified in the client acceptance provisions have been satisfied. Revenue from hardware sales-type leases is recognized at the beginning of the lease term. Revenue from rentals and operating leases is recognized on a straight-line basis over the term of the rental or lease.
+
+Revenue  from  as-a-Service  arrangements  is  recognized  either  on  a  straight-line  basis  or  on  a  usage  basis  as  described  in  the Services section above. Installation services are accounted for as distinct performance obligations with revenue recognized as the services are performed. Shipping and handling activities that occur after the client has obtained control of a product are accounted for  as  an  activity  to  fulfill  the  promise  to  transfer  the  product  rather  than  as  an  additional  promised  service  and,  therefore,  no revenue is deferred and recognized over the shipping period.
+
+## Software
+
+The  company's  software  offerings  include  solutions  in  Hybrid  Cloud  (Red  Hat),  Automation,  Data,  and  Transaction  Processing reported within the Software segment as well as distributed infrastructure software solutions reported within the Infrastructure segment, which provide operating systems for IBM Z and Power hardware. These solutions include proprietary software and opensource software, and many can be delivered entirely or partially through as-a-Service or cloud delivery models, while others are delivered as on-premise software licenses.
+
+Revenue  from  proprietary  perpetual  (one-time  charge)  license  software  is  recognized  at  a  point  in  time  at  the  inception  of  the arrangement when control transfers to the client, if the software license is distinct from the post-contract support (PCS) offered by the company.
+
+Revenue from proprietary term license software is recognized at a point in time for the committed term of the contract, unless consideration depends on client usage, in which case revenue is recognized when the usage occurs.
+
+Proprietary term licenses often have a one-month contract term due to client termination rights, in which case, revenue would be recognized in that month for both the license and PCS. Clients may contract to convert their existing IBM term license software into perpetual  license  software  plus  PCS.  When  proprietary  term  license  software  is  converted  to  perpetual  license  software,  the consideration becomes fixed with no cancellability and, therefore, revenue for the perpetual license is recognized upon conversion, consistent with the accounting for other perpetual licenses, as described above. PCS revenue is recognized as described below.
+
+The company also has open-source software offerings. Since open-source software is offered under an open-source licensing model and therefore, the license is available for free, the standalone selling price is zero. As such, when the license is sold with PCS or other products and services, no consideration is allocated to the license when it is a distinct performance obligation and therefore no revenue is recognized when control of the license transfers to the client. Revenue is recognized over the PCS period. In certain cases, open-source software is bundled with proprietary software and, if the open-source software is not considered distinct, the software bundle is accounted for under a proprietary software model.
+
+Revenue from PCS is recognized  over  the  contract  term  on  a  straight-line  basis  because  the  company  is  providing  a  service  of standing ready to provide support, when-and-if needed, and is providing unspecified software upgrades on a when-and-if available basis over the contract term.
+
+Revenue from software hosting or Software-as-a-Service (SaaS) arrangements is recognized either on a straight-line basis or on a usage basis as described in the Services section above. In software hosting arrangements, the rights provided to the client (e.g., ownership of a license, contract termination provisions and the feasibility of the client to operate the software) are considered in
+
+## 52 Notes to the Consolidated Financial Statements
+
+International Business Machines Corporation and Subsidiary Companies
+
+determining whether the arrangement includes a license. In arrangements that include a software license, the associated revenue is recognized in accordance with the software license recognition policy above rather than over time as a service.
+
+## Financing
+
+Financing income attributable to sales-type leases, direct financing leases and loans is recognized on the accrual basis using the effective interest method. Operating lease income is recognized on a straight-line basis over the term of the lease.
+
+## Standalone Selling Price
+
+The  company  allocates  the  transaction  price  to  each  performance  obligation  on  a  relative  standalone  selling  price  basis.  The standalone selling price (SSP) is the price at which the company would sell a promised product or service separately to a client. In most  cases,  the  company  is  able  to  establish  SSP  based  on  the  observable  prices  of  products  or  services  sold  separately  in comparable  circumstances  to  similar  clients.  The  company  establishes  SSP  ranges  for  its  products  and  services  which  are reassessed on a periodic basis or when facts and circumstances change.
+
+In  limited  instances,  the  company  may  not  be  able  to  establish  a  SSP  range  based  on  observable  prices,  and  as  a  result,  the company estimates SSP. The company estimates SSP by considering multiple factors including, but not limited to, overall market conditions, including geographic or regional specific factors, internal costs, profit objectives and pricing practices.
+
+## Services Costs
+
+Recurring operating costs for services contracts are recognized as incurred. For fixed-price design and build contracts, the costs of external hardware and software accounted for under the cost-to-cost measure of progress are deferred and recognized based on the  labor  costs  incurred  to  date  (i.e.,  the  measure  of  progress),  as  a  percentage  of  the  total  estimated  labor  costs  to  fulfill  the contract as control transfers over time for these performance obligations. Certain eligible, non-recurring costs (i.e., setup costs) incurred in the initial phases of application management, business operations and other cloud-based services contracts, including SaaS arrangements, are capitalized when the costs relate directly to the contract, the costs generate or enhance resources of the company that will be used in satisfying the performance obligation in the future, and the costs are expected to be recovered. These costs consist of transition and setup costs related to the provisioning, configuring, implementation and training and other deferred fulfillment costs, including, for example, prepaid assets used in services contracts (i.e., prepaid software or prepaid maintenance). Capitalized costs are amortized on a straight-line basis over the expected period of benefit, which can include anticipated contract renewals or extensions, consistent with the transfer to the client of the services to which the asset relates. Additionally, fixed assets associated with these contracts are capitalized and depreciated on a straight-line basis over the expected useful life of the asset. If an asset is contract specific, then the depreciation period is the shorter of the useful life of the asset or the contract term. Amounts paid to clients in excess of the fair value of acquired assets used in business operations arrangements are deferred and amortized on a straight-line basis as a reduction of revenue over the expected period of benefit. The company performs periodic reviews to assess  the  recoverability  of  deferred  contract  transition  and  setup  costs.  If  the  carrying  amount  is  deemed  not  recoverable,  an impairment loss  is  recognized.  Refer  to  note  C,  'Revenue  Recognition,'  for  the  amount  of  deferred  costs  to  fulfill  a  contract  at December 31, 2025 and 2024.
+
+In situations in which an application management, business operations or other cloud-based services contract is terminated, the terms of the contract may require the client to reimburse the company for the recovery of unbilled accounts receivable, unamortized deferred contract costs and additional costs incurred by the company to transition the services.
+
+## Software Costs
+
+Costs that are related to the conceptual formulation and design of licensed software programs are expensed as incurred to research and  development  expense;  costs  that  are  incurred  to  produce  the  finished  product  after  technological  feasibility  has  been established are capitalized as an intangible asset. Capitalized amounts are amortized on a straight-line basis over periods ranging up to three years and are recorded in software cost within cost of sales. The company performs periodic reviews to ensure that unamortized program costs remain recoverable from future revenue. Costs to support or service licensed programs are charged to software cost within cost of sales as incurred.
+
+The  company  capitalizes  certain  costs  that  are  incurred  to  purchase  or  develop  internal-use  software.  Internal-use  software programs also include software used by the company to deliver SaaS when the client does not receive a license to the software and the company has no substantive plans to market the software externally. Capitalized costs are amortized on a straight-line basis over periods ranging up to three years and are recorded in selling, general and administrative expense or cost of sales, depending on whether the software is used by the company in revenue generating transactions. Additionally, the company may capitalize certain types of implementation costs and amortize them over the term of the arrangement when the company is a customer in a cloudcomputing arrangement.
+
+## Incremental Costs of Obtaining a Contract
+
+Incremental costs of obtaining a contract (e.g., sales commissions) are capitalized and amortized on a straight-line basis over the expected customer relationship period if the company expects to recover those costs. The expected customer relationship period, determined based on the average customer relationship period, including expected renewals, for each offering type, is three years. Expected renewal periods are only included in the expected customer relationship period if commission amounts paid upon renewal are not commensurate with amounts paid on the initial contract. Incremental costs of obtaining a contract include only those costs the company incurs to obtain a contract that it would not have incurred if the contract had not been obtained. The company has determined  that  certain  commissions  programs  meet  the  requirements  to  be  capitalized.  Some  commission  programs  are  not subject to capitalization as the commission expense is paid and recognized as the related revenue is recognized. Additionally, as a practical expedient, the company expenses costs to obtain a contract as incurred if the amortization period would have been a year or less. These costs are included in selling, general and administrative expenses.
+
+## Product Warranties
+
+The company offers warranties for its hardware products that generally range up to three years, with the majority being either one or three years. Any cost of standard warranties is accrued when the corresponding revenue is recognized. The company estimates its standard warranty costs for products based on historical warranty claim experience and estimates of future spending and applies this  estimate  to  the  revenue  stream  for  products  under  warranty.  Estimated  future  costs  for  warranties  applicable  to  revenue recognized in the current period are charged to cost of sales. The warranty liability is reviewed quarterly to verify that it properly reflects the remaining obligation based on the anticipated expenditures over the balance of the obligation period. Adjustments are made when actual warranty claim experience differs from estimates. Costs from fixed-price support or maintenance contracts are recognized as incurred.
+
+Refer to note Q, 'Commitments &amp; Contingencies,' for additional information.
+
+## Shipping and Handling
+
+Costs related to shipping and handling are recognized as incurred and included in cost in the Consolidated Income Statement.
+
+## Expense and Other Income
+
+## Selling, General and Administrative
+
+Selling, general and administrative (SG&amp;A) expense is charged to income as incurred, except for certain sales commissions, which are  capitalized  and  amortized.  For  further  information  regarding  capitalizing  sales  commissions,  refer  to  'Incremental  Costs  of Obtaining  a  Contract'  above.  Expenses  of  promoting  and  selling  products  and  services  are  classified  as  selling  expense  and,  in addition to sales commissions, include such items as compensation, advertising and travel. General and administrative expense includes such items as compensation, IT costs, legal costs, office rental, non-income taxes, and insurance. In addition, general and administrative  expense  includes  other  operating  items  such  as  amortization  of  certain  intangible  assets,  workforce  rebalancing charges related to employees terminated in the ongoing course of business, acquisition costs related to business combinations, environmental remediation costs, and allowance for credit losses.
+
+## Advertising and Promotional Expense
+
+Advertising and promotional expense, which includes media, agency and promotional expense, was $1,129 million, $1,173 million and $1,237 million in 2025, 2024 and 2023, respectively. The company records these costs as incurred in SG&amp;A expense in the Consolidated Income Statement.
+
+## Research and Development
+
+Research  and  development  (R&amp;D)  costs  are  expensed  as  incurred.  These  costs  are  predominantly  research  and  development expenses, related to scientific research and the application of scientific advances to the development of new and improved products and their  uses,  as  well  as  services  and  their  application.  Software  costs  that  are  incurred  to  produce  the  finished  product  after technological feasibility has been established are capitalized as an intangible asset.
+
+## Intellectual Property and Custom Development Income
+
+The company licenses and sells the rights to certain of its intellectual property (IP) including internally developed patents, trade secrets and technological know-how. Certain IP transactions to third parties are licensing/royalty-based and others are transactionbased sales/other transfers. Income from licensing arrangements is recognized at the inception of the license term if the nature of the company's promise is to provide a right to use the company's IP as it exists at that point in time (i.e., the license is functional IP) and control has transferred to the client. Income is recognized over time if the nature of the company's promise is to provide a right to access the company's IP throughout the license period (i.e., the license is symbolic IP), such as a trademark license. Income from royalty-based  fee  arrangements  is  recognized  at  the  later  of  when  the  subsequent  sale  or  usage  occurs  or  the  performance obligation to which some or all of the royalty has been allocated has been satisfied (or partially satisfied). The company also enters into  cross-licensing  arrangements  of  patents,  and  income  from  these  arrangements  is  recognized  when  control  transfers  to  the customer. In addition, the company earns income from certain custom development projects with strategic technology partners and specific  clients.  The  company  records  the  income  from  these  projects  over  time  as  the  company  satisfies  the  performance obligation if there are no repayment provisions and the fee is not dependent upon the ultimate success of the project.
+
+## 54 Notes to the Consolidated Financial Statements
+
+International Business Machines Corporation and Subsidiary Companies
+
+## Government Assistance
+
+The company receives grants from governments and government agencies (government) in support of certain of the company's business activities, primarily related to research, job creation, or job training. Grants are generally received in the form of cash as either a recovery for expenses incurred or as an incentive for meeting certain requirements as agreed to in the grant, with terms ranging from one to five years. Grants are recorded as credits against Cost, SG&amp;A and R&amp;D in the Consolidated Income Statement based on the nature of the grant and the expense being offset once the conditions and restrictions of the grant have been met and payment has been received from the government. When a grant is received before conditions of the grant have been met, the grant is  recorded  in  other  accrued  expenses  and  liabilities  or  other  liabilities  in  the  Consolidated  Balance  Sheet.  For  the  years  ended December 31, 2025 and 2024, grants recorded in the company's Consolidated Financial Statements were not material.
+
+## Business Combinations and Intangible Assets Including Goodwill
+
+The company accounts for business combinations using the acquisition method and accordingly, the identifiable assets acquired, the liabilities assumed, and any noncontrolling interest in the acquiree are generally recorded at their acquisition date fair values. Contract assets and contract liabilities are measured in accordance with the guidance on revenue recognition. Goodwill represents the excess of the purchase price over the fair value of net assets, including the amount assigned to identifiable intangible assets. The  primary  drivers  that  generate  goodwill  are  the  value  of  synergies  between  the  acquired  entities  and  the  company  and  the acquired  assembled  workforce,  neither  of  which  qualifies  as  a  separately  identifiable  intangible  asset.  Goodwill  recorded  in  an acquisition is  assigned to applicable reporting units based on expected revenues or expected cash flows. Identifiable intangible assets  with  finite  lives  are  amortized  over  their  useful  lives.  Amortization  of  completed  technology  is  recorded  in  cost,  and amortization  of  all  other  intangible  assets  is  recorded  in  SG&amp;A  expense.  Acquisition-related  costs,  including  advisory,  legal, accounting, valuation and pre-close and other costs, are typically expensed in the periods in which the costs are incurred and are recorded in SG&amp;A expense. The results of operations of acquired businesses are included in the Consolidated Financial Statements from the acquisition date.
+
+## Impairment
+
+Long-lived assets, other than goodwill, are tested for impairment whenever events or changes in circumstances indicate that the carrying amount may not be recoverable. The impairment test is typically based on undiscounted cash flows and, if impaired, the asset is written down to fair value based on either discounted cash flows or appraised values. Goodwill is tested for impairment at least  annually,  in  the  fourth  quarter  and  whenever  changes  in  circumstances  indicate  an  impairment  may  exist.  The  goodwill impairment test is performed at the reporting unit level, which is generally at the level of or one level below an operating segment.
+
+## Depreciation and Amortization
+
+Property, plant and equipment are carried at cost and depreciated over their estimated useful lives using the straight-line method. The estimated useful lives of certain depreciable assets are as follows: buildings, 30 to 50 years; building equipment, 10 to 20 years; land improvements, 20 years; production, engineering, office and other equipment, 2 to 20 years; and information technology equipment, 1.5 to 6 years. Leasehold improvements are amortized over the shorter of their estimated useful lives or the related lease term, rarely exceeding 25 years.
+
+As noted within the 'Software Costs' section of this note, capitalized software costs are amortized on a straight-line basis over periods ranging up to three years. Other intangible assets are amortized over periods between one year and 20 years.
+
+## Environmental
+
+The cost of internal environmental protection programs that are preventative in nature are expensed as incurred. When a cleanup program becomes likely, and it is probable that the company will incur cleanup costs and those costs can be reasonably estimated, the company accrues remediation costs for known environmental liabilities.
+
+## Defined Benefit Pension and Nonpension Postretirement Benefit Plans
+
+The funded status of the company's defined benefit pension plans and nonpension postretirement benefit plans (retirement-related benefit plans) is recognized in the Consolidated Balance Sheet. The funded status is measured as the difference between the fair value  of  plan  assets  and  the  benefit  obligation  at  December  31,  the  measurement  date.  For  defined  benefit  pension  plans,  the benefit obligation is the projected benefit obligation (PBO), which represents the actuarial present value of benefits expected to be paid upon retirement based on employee services already rendered and estimated future compensation levels. For the nonpension postretirement benefit plans, the benefit obligation is the accumulated postretirement benefit obligation (APBO), which represents the  actuarial  present  value  of  postretirement  benefits  attributed  to  employee  services  already  rendered.  The  fair  value  of  plan assets represents the current market value of assets held in an irrevocable trust fund, held for the sole benefit of participants, which are invested by the trust fund. Overfunded plans, with the fair value of plan assets exceeding the benefit obligation, are aggregated and recorded as a prepaid pension asset equal to this excess. Underfunded plans, with the benefit obligation exceeding the fair value of plan assets, are aggregated and recorded as a retirement and nonpension postretirement benefit obligation equal to this excess.
+
+The current portion of the retirement and nonpension postretirement benefit obligations represents the actuarial present value of benefits payable in the next 12 months exceeding the fair value of plan assets, measured on a plan-by-plan basis. This obligation is recorded in compensation and benefits in the Consolidated Balance Sheet.
+
+Net periodic pension and nonpension postretirement benefit cost/(income) is recorded in the Consolidated Income Statement and includes service cost, interest cost, expected return on plan assets, amortization of prior service costs/(credits) and (gains)/losses previously  recognized  as  a  component  of  other  comprehensive  income/(loss)  (OCI)  and  amortization  of  the  net  transition  asset remaining in accumulated other comprehensive income/(loss) (AOCI). The service cost component of net benefit cost is recorded in Cost, SG&amp;A and R&amp;D in the Consolidated Income Statement (unless eligible for capitalization) based on the employees' respective functions. The other components of net benefit cost are presented separately from service cost within other (income) and expense in the Consolidated Income Statement.
+
+(Gains)/losses  and  prior  service  costs/(credits)  are  recognized  as  a  component  of  OCI  in  the  Consolidated  Statement  of Comprehensive  Income  as  they  arise.  Those  (gains)/losses  and  prior  service  costs/(credits)  are  subsequently  recognized  as  a component of net periodic cost/(income) pursuant to the recognition and amortization provisions of applicable accounting guidance. (Gains)/losses arise as a result of differences between actual experience and assumptions or as a result of changes in actuarial assumptions.  Prior  service  costs/(credits)  represent  the  cost  of  benefit  changes  attributable  to  prior  service  granted  in  plan amendments.
+
+The measurement of benefit obligations and net periodic cost/(income) is based on estimates and assumptions approved by the company's  management.  These  valuations  reflect  the  terms  of  the  plans  and  use  participant-specific  information  such  as compensation, age and years of service, as well as certain assumptions, including estimates of discount rates, expected return on plan assets, rate of compensation increases, interest crediting rates and mortality rates.
+
+## Defined Contribution Plans
+
+The company's contribution for defined contribution plans is recorded when the employee renders service to the company. The charge is recorded in Cost, SG&amp;A and R&amp;D in the Consolidated Income Statement based on the employees' respective functions.
+
+## Stock-Based Compensation
+
+Stock-based  compensation  represents  the  cost  related  to  stock-based  awards  granted  to  employees.  The  company  measures stock-based compensation cost at the grant date, based on the estimated fair value of the award and recognizes the cost on a straight-line  basis  (net  of  estimated  forfeitures)  over  the  employee  requisite  service  period.  The  company  grants  its  employees Restricted  Stock  Units  (RSUs),  including  Retention  Restricted  Stock  Units  (RRSUs);  Performance  Share  Units  (PSUs);  and  stock options.  RSUs  are  stock  awards  granted  to  employees  that  entitle  the  holder  to  shares  of  common  stock  as  the  award  vests, typically over a one- to four-year period. PSUs are stock awards where the number of shares ultimately received by the employee depends on performance and market results for 2025 awards, and solely on performance results for prior awards. These awards are measured against specified targets and typically vest over a three-year period. Over the performance period, the number of shares that will be issued is adjusted based upon the probability of achievement of performance and market-based targets. The ultimate number of shares issued and the related compensation cost recognized as expense will be based on a comparison of the final performance and market-based metrics to the specified targets. Dividend equivalents are not paid on the stock awards described above. The fair value of the awards is determined and fixed on the grant date based on the company's stock price, adjusted for the exclusion  of  dividend  equivalents  where  applicable  and  for  PSUs  assumes  that  performance  and  market-based  targets  will  be achieved. The company estimates the fair value of stock options using a Black-Scholes valuation model. Stock-based compensation cost is recorded in Cost, SG&amp;A, and R&amp;D in the Consolidated Income Statement based on the employees' respective functions.
+
+The company records deferred tax assets for awards that result in deductions on the company's income tax returns, based on the amount of compensation cost recognized and the relevant statutory tax rates. The differences between the deferred tax assets recognized for financial reporting purposes and the actual tax deduction reported on the income tax return are recorded as a benefit or expense to the provision for income taxes in the Consolidated Income Statement.
+
+## Income Taxes
+
+Income tax expense is based on reported income before income taxes. Deferred income taxes reflect the tax effect of temporary differences  between  asset  and  liability  amounts  that  are  recognized  for  financial  reporting  purposes  and  the  amounts  that  are recognized  for  income  tax  purposes.  These  deferred  taxes  are  measured  by  applying  currently  enacted  tax  laws.  The  company includes Global Intangible Low-Taxed Income (GILTI) in measuring deferred taxes. Valuation allowances are recognized to reduce deferred  tax  assets  to  the  amount  that  will  more  likely  than  not  be  realized.  In  assessing  the  need  for  a  valuation  allowance, management  considers  all  available  evidence  for  each  jurisdiction  including  past  operating  results,  estimates  of  future  taxable income  and  the  feasibility  of  ongoing  tax  planning  strategies/actions.  When  the  company  changes  its  determination  as  to  the amount of deferred tax assets that can be realized, the valuation allowance is adjusted with a corresponding impact to income tax expense in the period in which such determination is made.
+
+## 56 Notes to the Consolidated Financial Statements
+
+International Business Machines Corporation and Subsidiary Companies
+
+The company recognizes additional tax liabilities when the company believes that certain positions may not be fully sustained upon review by tax authorities. Benefits from tax positions are measured at the largest amount of benefit that is greater than 50 percent likely of being realized upon settlement. The noncurrent portion of tax liabilities is included in other liabilities in the Consolidated Balance Sheet. To the extent that new information becomes available which causes the company to change its judgment regarding the adequacy of existing tax liabilities, such changes to tax liabilities will impact income tax expense in the period in which such determination is made. Interest and penalties, if any, related to accrued liabilities for potential tax assessments are included in income tax expense.
+
+## Translation of Non-U.S. Currency Amounts
+
+Assets  and  liabilities  of  non-U.S.  subsidiaries  that  have  a  local  functional  currency  are  translated  to  U.S.  dollars  at  year-end exchange rates. Translation adjustments are recorded in OCI. Income and expense items are translated at weighted-average rates of exchange prevailing during the year.
+
+Inventory, property, plant and equipment-net and other non-monetary assets and liabilities of non-U.S. subsidiaries and branches that operate in U.S. dollars are translated at the approximate exchange rates prevailing when the company acquired the assets or liabilities. All other assets and liabilities denominated in a currency other than U.S. dollars are translated at year-end exchange rates with  the  transaction  gain  or  loss  recognized  in  other  (income)  and  expense.  Income  and  expense  items  are  translated  at  the weighted-average rates of exchange prevailing during the year. These translation gains and losses are included in net income for the period in which exchange rates change.
+
+## Derivative Financial Instruments
+
+The company uses derivative financial instruments primarily to manage foreign currency and interest rate risk, and to a lesser extent equity. The company does not use derivative financial instruments for trading or speculative purposes. Derivatives that qualify for hedge accounting can be designated as either cash flow hedges, net investment hedges, or fair value hedges. The company may enter  into  derivative  contracts  that  economically  hedge  certain  of  its  risks,  even  when  hedge  accounting  does  not  apply,  or  the company elects not to apply hedge accounting.
+
+Derivatives  are  recognized  in  the  Consolidated  Balance  Sheet  at  fair  value  on  a  gross  basis  as  either  assets  or  liabilities  and classified as current or noncurrent based upon whether the maturity of the instrument is less than or greater than 12 months.
+
+Changes  in  the  fair  value  of  derivatives  designated  as  a  cash  flow  hedge  are  recorded,  net  of  applicable  taxes,  in  OCI  and subsequently  reclassified  into  the  same  income  statement  line  as  the  hedged  exposure  when  the  underlying  hedged  item  is recognized  in  earnings.  For  forward  contracts  designated  as  cash  flow  hedges  of  the  principal  associated  with  foreign  currency denominated debt, the company excludes the initial forward points from the assessment of hedge effectiveness and recognizes it in other (income) and expense in the Consolidated Income Statement on a straight-line basis over the life of the hedging instrument. Changes in the fair value of the amounts excluded from the assessment of hedge effectiveness are recognized in OCI. Effectiveness for  net  investment  hedging  derivatives  is  measured  on  a  spot-to-spot  basis.  Changes  in  the  fair  value  of  highly  effective  net investment hedging derivatives and other non-derivative financial instruments designated as net investment hedges are recorded as foreign  currency  translation  adjustments  in  OCI.  Unrealized  gains  or  losses  on  excluded  components  of  net  investment  hedging derivatives are recorded in OCI and recognized on a straight-line basis over the life of the hedge in interest expense and cost of financing in the Consolidated Income Statement. Changes in the fair value of interest rate derivatives designated as a fair value hedge and the offsetting changes in the fair value of the underlying hedged exposure are recorded in interest expense and cost of financing. Changes in the fair value of derivatives not designated as hedges are reported in earnings primarily in other (income) and expense. Refer to note S, 'Derivative Financial Instruments,' for further information.
+
+The cash flows associated with derivatives designated as fair value and cash flow hedges are reported in cash flows from operating activities  in  the  Consolidated  Statement  of  Cash  Flows.  Cash  flows  from  derivatives  designated  as  net  investment  hedges  and derivatives not designated as hedges are reported in cash flows from investing activities in the Consolidated Statement of Cash Flows.  Cash  flows  from  derivatives  designated  as  hedges  of  foreign  currency  denominated  debt  directly  associated  with  the settlement  of  the  principal  are  reported  in  payments  to  settle  debt  in  cash  flows  from  financing  activities  in  the  Consolidated Statement of Cash Flows.
+
+## Financial Instruments
+
+In determining the fair value of its financial instruments, the company uses a variety of methods and assumptions that are based on market  conditions  and  risks  existing  at  each  balance  sheet  date.  Refer  to  note  I,  'Financial  Assets  &amp;  Liabilities,'  for  further information. All methods of assessing fair value result in a general approximation of value, and such value may never actually be realized.
+
+## Notes to the Consolidated Financial Statements
+
+International Business Machines Corporation and Subsidiary Companies
+
+## Fair Value Measurement
+
+Fair  value  is  defined  as  the  price  that  would  be  received  to  sell  an  asset  or  paid  to  transfer  a  liability  in  an  orderly  transaction between market participants at the measurement date. The company classifies certain assets and liabilities based on the following fair value hierarchy:
+
+- Level 1-Quoted prices (unadjusted) in active markets for identical assets or liabilities that can be accessed at the measurement date;
+- Level 2-Inputs other than quoted prices included within Level 1 that are observable for the asset or liability, either directly or indirectly; and
+- Level 3-Unobservable inputs for the asset or liability.
+
+When available, the company uses unadjusted quoted market prices in active markets to measure the fair value and classifies such items as Level 1. If quoted market prices are not available, fair value is based upon internally developed models that use current market-based or independently sourced market parameters such as interest rates and currency rates. Items valued using internally generated models are classified according to the lowest level input or value driver that is significant to the valuation.
+
+The determination of fair value considers various factors including interest rate yield curves and time value underlying the financial instruments.  For  derivatives  and  debt  securities,  the  company  uses  a  discounted  cash  flow  analysis  using  discount  rates commensurate with the duration of the instrument.
+
+In determining the fair value of financial instruments, the company considers certain market valuation adjustments to the 'base valuations' calculated using the methodologies described below for several parameters that market participants would consider in determining fair value:
+
+- Counterparty credit risk adjustments are applied to financial instruments, taking into account the actual credit risk of a counterparty as observed in the credit default swap market to determine the true fair value of such an instrument.
+- Credit risk adjustments are applied to reflect the company's own credit risk when valuing all liabilities measured at fair value. The methodology is consistent with that applied in developing counterparty credit risk adjustments, but incorporates the company's own credit risk as observed in the credit default swap market.
+
+The company holds investments primarily in time deposits, certificates of deposit, and U.S. government debt that are designated as available-for-sale. The primary objective of the company's cash and debt investment portfolio is to protect principal by investing in very liquid investment securities with highly rated counterparties.
+
+Available-for-sale  securities  are  measured  for  impairment  on  a  recurring  basis  by  comparing  the  security's  fair  value  with  its amortized cost basis. If the fair value of the security falls below its amortized cost basis, the change in fair value is recognized in the period  the  impairment  is  identified  when  the  loss  is  due  to  credit  factors.  The  change  in  fair  value  due  to  non-credit  factors  is recorded in other comprehensive income when the company does not intend to sell and has the ability to hold the investment. The company's standard practice is to hold all of its debt security investments classified as available-for-sale until maturity. There were no impairments for credit losses and no material non-credit impairments recognized for the years ended December 31, 2025, 2024 and 2023.
+
+Certain nonfinancial assets such as property, plant and equipment, land, goodwill and intangible assets are subject to non-recurring fair value measurements if they are deemed to be impaired. The impairment models used for nonfinancial assets depend on the type of asset. There were no material impairments of nonfinancial assets for the years ended December 31, 2025, 2024 and 2023.
+
+## Cash Equivalents
+
+All  highly  liquid  investments  with  original  maturities  of  three  months  or  less  at  the  date  of  purchase  are  considered  to  be  cash equivalents.
+
+## Marketable Securities
+
+The company measures equity investments at fair value with changes recognized in net income.
+
+Debt  securities  included  in  current  assets  represent  securities  that  are  expected  to  be  realized  in  cash  within  one  year  of  the balance  sheet  date.  Long-term  debt  securities  are  included  in  investments  and  sundry  assets.  Debt  securities  are  considered available-for-sale and are reported at fair value with unrealized gains and losses, net of applicable taxes, in OCI. The realized gains and losses on available-for-sale debt securities are included in other (income) and expense in the Consolidated Income Statement. Realized gains and losses are calculated based on the specific identification method. Refer to note I, 'Financial Assets &amp; Liabilities,' for additional information.
+
+## 58 Notes to the Consolidated Financial Statements
+
+International Business Machines Corporation and Subsidiary Companies
+
+## Inventory
+
+Raw materials, work in process and finished goods are stated at the lower of average cost or net realizable value.
+
+## Notes and Accounts Receivable-Trade and Contract Assets
+
+The company classifies the right to consideration in exchange for products or services transferred to a client as either a receivable or a contract asset. A receivable is a right to consideration that is unconditional as compared to a contract asset which is a right to consideration  that  is  conditional  upon  factors  other  than  the  passage  of  time.  The  majority  of  the  company's  contract  assets represent unbilled amounts related to design and build services contracts when the cost-to-cost method of revenue recognition is utilized,  revenue  recognized  exceeds  the  amount  billed  to  the  client,  and  the  right  to  consideration  is  subject  to  milestone completion or client acceptance. Contract assets are generally classified as current and are recorded on a net basis with deferred income (i.e., contract liabilities) at the contract level.
+
+## Financing Receivables
+
+Financing receivables primarily consist of client loan and installment payment receivables (loans) and investment in sales-type and direct  financing  leases  (collectively  referred  to  as  client  financing  receivables)  and  commercial  financing  receivables.  Leases  are accounted  for  in  accordance  with  lease  accounting  standards.  Loans,  which  are  generally  unsecured,  are  primarily  for  IBM hardware, software and services. Commercial financing receivables are primarily for working capital financing to business partners and distributors of IBM products and services. Financing receivables are classified as either held for sale or held for investment, depending on the company's intent and ability to hold the underlying contract for the foreseeable future or until maturity or payoff. Loans and commercial financing receivables are recorded at amortized cost, which approximates fair value.
+
+## Transfers of Financial Assets
+
+The company enters into arrangements to sell certain financial assets (primarily notes and accounts receivable-trade and financing receivables) to third-party financial institutions. For a transfer of financial assets to be considered a sale, the asset must be legally isolated from the company and the purchaser must have control of the asset ('true sale'). Determining whether all the true sale requirements have been met includes an evaluation of legal considerations, the extent of the company's continuing involvement with the assets transferred and any other relevant consideration. When the true sale criteria are met, the company derecognizes the carrying value of the financial asset transferred and recognizes a net gain or loss on the sale. The proceeds from these arrangements are reflected as cash provided by operating activities in the Consolidated Statement of Cash Flows. If the true sale criteria are not met,  the  transfer  is  considered  a  secured  borrowing  and  the  financial  asset  remains  on  the  Consolidated  Balance  Sheet  with proceeds from the sale recognized as debt and recorded as cash flows from financing activities in the Consolidated Statement of Cash Flows.
+
+Arrangements to sell notes and accounts receivable-trade are used in the normal course of business as part of the company's cash and liquidity management. Facilities primarily in the U.S. and several countries in Europe enable the company to sell certain notes and accounts receivable-trade, without recourse, to third parties in order to manage credit, collection, concentration and currency risk. The gross amounts sold (the gross proceeds) under these arrangements were $3.8 billion, $4.2 billion and $3.4 billion for the years  ended  December  31,  2025,  2024  and  2023,  respectively.  Within  the  notes  and  accounts  receivables-trade  sold  and derecognized from the Consolidated Balance Sheet, $0.3 billion, $0.9 billion and $0.5 billion remained uncollected from customers at December 31, 2025, 2024 and 2023, respectively. The fees and the net gains and losses associated with the transfer of notes and accounts receivables-trade were not material for any of the periods presented. Refer to note K, 'Financing Receivables,' for more information on transfers of financing receivables.
+
+## Allowance for Credit Losses
+
+Receivables are recorded concurrent with billing and shipment of a product and/or delivery of a service to customers. An allowance for uncollectible trade receivables and contract assets, if needed, is estimated based on specific customer situations, current and future expected economic conditions, past experiences of losses, as well as an assessment of potential recoverability of the balance due.
+
+The company estimates its allowances for expected credit losses for financing receivables by considering past events, including any historical  default,  historical  concessions  and  resulting  troubled  debt  restructurings,  current  economic  conditions,  any  nonfreestanding  mitigating  credit  enhancements,  and  certain  forward-looking  information,  including  reasonable  and  supportable forecasts. The methodologies that the company uses to calculate its financing receivables reserves, which are applied consistently to its different portfolios, are as follows:
+
+Individually Evaluated-The company reviews all financing receivables considered at risk quarterly, and performs an analysis based upon current information available about the client, such as financial statements, news reports, published credit ratings, current market-implied  credit  analysis,  as  well  as  collateral  net  of  repossession  cost,  prior  collection  history  and  current  and  future expected economic conditions. For loans that are collateral dependent, impairment is measured using the fair value of the collateral when  foreclosure  is  probable.  Using  this  information,  the  company  determines  the  expected  cash  flow  for  the  receivable  and

@@ -1,0 +1,11 @@
+{
+  "department": "Finance",
+  "source_file": "ibm-annual-report-2025.pdf",
+  "file_type": "pdf",
+  "source_path": "data/input/Finance/ibm-annual-report-2025.pdf",
+  "page_start": 81,
+  "page_end": 90,
+  "chunk_index": 9,
+  "total_chunks": 13,
+  "total_pdf_pages": 124
+}

@@ -17,6 +17,7 @@ app.add_middleware(
 
 class QueryRequest(BaseModel):
     question: str
+    department: str | None = None
 
 
 class QueryResponse(BaseModel):
@@ -32,7 +33,7 @@ def root():
 
 @app.post("/query", response_model=QueryResponse)
 def query(request: QueryRequest):
-    result, department = run_query(request.question)
+    result, department = run_query(request.question, request.department)
     answer_text = str(result)
 
     dept_for_lookup = department if department != "unknown" else None
